@@ -1,0 +1,68 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+textarea {
+  font-family: Georgia, Curier, Arial, serif;
+  font-size: 14px;
+  line-height: 18px;
+  white-space: nowrap;
+  /*background-image: url('sorok_18px.png');
+  background-position: top center;*/
+  
+  margin: 0;
+  padding: 2px;
+}
+
+#menu {
+text-align: center;
+margin: 10px;
+}
+
+h5 {
+font-size: 14px;
+margin: 0 0 5px 0;
+}
+
+#top {
+clear: both;
+
+text-align: center;
+}
+
+#top textarea {
+width: 896px;
+height: 150px;
+}
+
+#bottom {
+clear: both;
+
+text-align: center;
+}
+
+#left_col {
+  width: 450px;
+  float: left;
+  text-align: center;
+}
+#left_col textarea {
+  width: 446px;
+  height: 600px;
+}
+
+#right_col {
+  width: 450px;
+  float: left;
+  text-align: center;
+}
+#right_col textarea {
+  width: 446px;
+  height: 600px;
+}
