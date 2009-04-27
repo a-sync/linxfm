@@ -24,7 +24,7 @@ if($_GET['step'] == 1 || $sk) {
     header("Location: http://www.last.fm/api/auth/?api_key=".$_POST['api_key']);
     exit;
   }
-  else { $fail = 'You need an <i>api key</i> first. Get it from <a href="http://www.last.fm/api/account" target="_blank">here</a>.'; }
+  else { $fail = 'You need an <i>api key</i> first. Get it from <a href="http://www.last.fm/api/account" target="_blank">here</a>. Set your callback URL to: {YOUR HOST}/linxfm/session.php'; }
 }
 
 ?>
